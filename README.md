@@ -1,8 +1,7 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
+# [sharifbot] 
 
-[![Join the chat at https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
+**An advance and powerful Administration bot licensed under [GNU General public License](https://github.com/sharifteam/sharifbot/blob/master/LICENSE)**
 # Features
 
 * **A powerful Anti spam with custom sensitivity For each group**
@@ -21,7 +20,6 @@
 * **And ...**
 
 **Table of Contents** 
-- [TeleSeed](#teleseed)
 - [Features](#features)
 - [Commands](#commands)
 	- [Admins commands](#admins-commands)
@@ -473,36 +471,14 @@ then start the bot again
 Create a realm using !createrealm command
 
 
-# Support and development
+# PREVENTING C9 HIBERNATION
+This step is optional, but it will help you to prevent to C9 hibernate your bot due to inactivity.
 
-Check out this tutorial by: [Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
+Open plugins folder in TeleSeed folder, and create a new file called isup.lua.
+Copy-Paste the code of this website: lua
+Then, in data folder, open config.lua and, in this list, add: “isup.lua”, and a comma next to the latest plugin.config lua bot 
+Now, restart the bot, and, ina group with the bot, type
+!isup cron (your bot website).
 
-Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
+Now, bot will check every 5 minutes if it’s up.
 
-_If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
-
-# Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
-
-For Managing [@teleseed](https://telegram.me/TeleSeed) on Telegram
-
-[@Vamptacus](https://telegram.me/Vamptacus)
-
-For graphic designs
-
-[@topkecleon](https://github.com/topkecleon)
-
-[@JuanPotato](https://github.com/JuanPotato)
-
-# Our team!
-
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
-
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
-
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
-
-[Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/Rondoozle))
-
-Our Telegram cahnnels > English: [@TeleSeedCH](https://telegram.me/teleseedch) Persian: [@IranSeed](https://telegram.me/iranseed)
