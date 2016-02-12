@@ -225,7 +225,8 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
-    "isup"
+    "isup",
+    "filter"
     },
     sudo_users = {40262958,0,tonumber(our_id)},--Sudo users
     disabled_channels = {},
