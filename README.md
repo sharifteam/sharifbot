@@ -423,6 +423,9 @@ _Sudo users and admins can also use this commands in all groups_
 >/[!/]oin [group_id]
 >> This command will add user in [group_id]
 
+**U can use both "/" and "!"**
+
+
 # filter
 >filter ! (word) : warn to user
 >
@@ -433,7 +436,6 @@ _Sudo users and admins can also use this commands in all groups_
 >
 >filterlist : list of filtered words
 
-**U can use both "/" and "!"**
 
 # Installation 
 
