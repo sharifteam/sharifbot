@@ -422,7 +422,8 @@ _Sudo users and admins can also use this commands in all groups_
 ### Join
 >/[!/]oin [group_id]
 >> This command will add user in [group_id]
-## filter
+
+# filter
 filter ! (word) : warn to user
 filter + (word) : kick in use word
 filter - (word) : delete from filter
