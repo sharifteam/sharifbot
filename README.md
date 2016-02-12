@@ -422,7 +422,7 @@ _Sudo users and admins can also use this commands in all groups_
 ### Join
 >/[!/]oin [group_id]
 >> This command will add user in [group_id]
-### filter
+## filter
 filter ! (word) : warn to user
 filter + (word) : kick in use word
 filter - (word) : delete from filter
@@ -440,8 +440,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/sharifteam/sharifbot.git
+cd sharifbot
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
