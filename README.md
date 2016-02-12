@@ -422,7 +422,11 @@ _Sudo users and admins can also use this commands in all groups_
 ### Join
 >/[!/]oin [group_id]
 >> This command will add user in [group_id]
-
+### filter
+filter ! (word) : warn to user
+filter + (word) : kick in use word
+filter - (word) : delete from filter
+filterlist : list of filtered words
 
 **U can use both "/" and "!"**
 
@@ -446,7 +450,7 @@ chmod +x launch.sh
 To install everything in one command on debian-based distros, use: (useful for VPS deployment)
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install git && sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/sharifteam/sharifbot.git && sudo service redis-server start && cd sharifbot && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 ### Realm configuration 
 
@@ -459,9 +463,7 @@ open file ./data/config.lua
 add your id to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
+    40262958
     0,
     YourID
   }
@@ -473,12 +475,7 @@ Create a realm using !createrealm command
 
 # PREVENTING C9 HIBERNATION
 This step is optional, but it will help you to prevent to C9 hibernate your bot due to inactivity.
-
-Open plugins folder in TeleSeed folder, and create a new file called isup.lua.
-Copy-Paste the code of this website: lua
-Then, in data folder, open config.lua and, in this list, add: “isup.lua”, and a comma next to the latest plugin.config lua bot 
-Now, restart the bot, and, ina group with the bot, type
+in a group with the bot, type
 !isup cron (your bot website).
-
 Now, bot will check every 5 minutes if it’s up.
 
