@@ -424,10 +424,10 @@ _Sudo users and admins can also use this commands in all groups_
 >> This command will add user in [group_id]
 
 # filter
-filter ! (word) : warn to user
-filter + (word) : kick in use word
-filter - (word) : delete from filter
-filterlist : list of filtered words
+>filter ! (word) : warn to user
+>filter + (word) : kick in use word
+>filter - (word) : delete from filter
+>filterlist : list of filtered words
 
 **U can use both "/" and "!"**
 
